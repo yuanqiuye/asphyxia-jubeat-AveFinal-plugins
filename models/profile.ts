@@ -2,6 +2,7 @@ export default interface Profile {
     collection: "profile";
     navi?: number,
     jubeatId: number;
+    eventFlag: number;
     name: string;
     emo: number[];
     lastPlayTime?: number;
@@ -11,8 +12,6 @@ export default interface Profile {
     musicId?: number;
     seqId?: number;
     seqEditId?: string;
-    rankSort?: number;
-    comboDisp?: number;
 
     jubility?: number;
     jubilityYday?: number;
@@ -41,6 +40,11 @@ export default interface Profile {
     matching?: number;
     hazard?: number;
     hard?: number;
+    targetType?: number;
+    rankSort?: number;
+    randomOption?: number;
+    comboDisp?: number;
+    judgeDisp?: number;
 
     secretList?: number[];
     themeList?: number;
@@ -50,9 +54,7 @@ export default interface Profile {
     partsList?: number[];
 
     secretListNew?: number[];
-    themeListNew?: number;
+    themeListNew?: number[];
     markerListNew?: number[];
     titleListNew?: number[];
-
-    lastCourseId?: number;
 }

@@ -4,12 +4,8 @@ Jubeat Plugin for Asphyxia Core
 
 # Supported Versions
 
-- Festo
+- Ave Final
 
 # Versions
-- V1.0 (2021/12/16)
-Now only support normal mode score saving.
-
-# TODO
-- [ ] Hard mode score saving.
-- [ ] Easy to add course. 
+- V1.0 (2023/09/21)
+Now support Ave Final.
